@@ -1,7 +1,7 @@
 import React from "react";
 import CarouselItem from "../components/CarouselItem";
 
-const API = "http://www.omdbapi.com/?i=tt3896198&apikey=577cca3";
+const API = "https://www.omdbapi.com/?i=tt3896198&apikey=577cca3";
 
 class List extends React.Component {
   constructor() {
