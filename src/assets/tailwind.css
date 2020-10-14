@@ -1,0 +1,12 @@
+@tailwind base;
+
+@tailwind components;
+.formulario {
+  @apply leading-snug m-2 py-4 px-4 bg-gray-400 rounded;
+}
+
+@tailwind utilities;
+
+.altura {
+  height: 325px;
+}

@@ -1,0 +1,26 @@
+.Homesection3-container {
+  height: 450px;
+  border-top: 8px solid #222;
+  border-bottom: 8px solid #222;
+  width: 100%;
+  color: white;
+}
+.texto3-container {
+  width: 530px;
+  margin: 0 70px;
+}
+.texto3-container h1 {
+  font-family: Helvetica;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.texto3-container h3 {
+  font-family: Helvetica;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.Section3-image {
+  height: 370px;
+}

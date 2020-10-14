@@ -1,0 +1,26 @@
+/* .contenedor {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor-caja {
+  width: 500px;
+  background-color: black;
+} */
+
+.button-login {
+  cursor: pointer;
+  background-color: #e50914;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  font-weight: 400;
+  font-family: "Helvetica";
+  font-size: 16px;
+  padding: 7px 17px;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.Footer {
+  padding: 0px 40px;
+  border-top: 8px solid #222;
+  width: 100%;
+  color: #757575;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 60px 60px; */
+}
+/* .Footer-container {
+  display: grid;
+  grid-column: 1 / span 4;
+  align-self: center;
+  height: 50px;
+}
+.Footer-container1 {
+  display: grid;
+  grid-column: 1 / span 1;
+}
+.Footer-container2 {
+  display: grid;
+  grid-column: 2 / span 1;
+}
+.Footer-container3 {
+  display: grid;
+  grid-column: 3 / span 1;
+}
+.Footer-container4 {
+  display: grid;
+  grid-column: 4 / span 1;
+} */

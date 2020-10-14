@@ -1,0 +1,11 @@
+.categories__title1 {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  /* margin-top: -16px; */
+  position: absolute;
+  padding-left: 30px;
+  margin-top: 10px;
+  width: 100%;
+  font-weight: bold;
+}

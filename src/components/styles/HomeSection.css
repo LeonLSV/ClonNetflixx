@@ -1,0 +1,24 @@
+.Homesection-container {
+  height: 450px;
+  border-top: 8px solid #222;
+  width: 100%;
+  color: white;
+  margin-top: 160px;
+}
+.texto-container {
+  width: 530px;
+  margin: 0 70px;
+}
+.texto-container h1 {
+  font-family: Helvetica;
+  font-size: 50px;
+  font-weight: 600;
+}
+.texto-container h3 {
+  font-family: Helvetica;
+  font-size: 26px;
+  font-weight: 400;
+}
+.Section-image {
+  height: 370px;
+}

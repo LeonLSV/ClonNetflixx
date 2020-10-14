@@ -1,0 +1,71 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  /* max-width: 300px; */
+  background-color: #303030;
+  color: white;
+}
+
+.cardTitle {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  background-color: #303030;
+}
+
+.cardTitle button {
+  display: block;
+  text-align: left;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 22px;
+  position: relative;
+  width: 100%;
+  border: 0;
+  background-color: #303030;
+  color: white;
+}
+
+.cardTitle button span {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  font-size: 44px;
+  position: absolute;
+  right: 1em;
+  top: 32.5%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1em;
+  width: 1em;
+  fill: #fff;
+}
+
+.cardText span {
+  text-align: left;
+  font-size: 22px;
+  display: inline-block;
+  padding: 1.2em;
+}
+
+.open {
+  max-height: 1200px;
+  -webkit-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  -o-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  -moz-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.closed {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  -o-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  -moz-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}

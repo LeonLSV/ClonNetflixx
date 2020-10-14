@@ -1,0 +1,36 @@
+.carousel1 {
+  overflow: scroll;
+  padding-left: 30px;
+  width: 100%;
+  position: relative;
+}
+.carousel1::-webkit-scrollbar {
+  width: 0px;
+  height: 10px;
+  background: black;
+}
+.carousel1::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+  height: 20px;
+}
+
+.carousel__container1 {
+  transition: 450ms -webkit-transform;
+  transition: 450ms transform;
+  transition: 450ms transform, 450ms -webkit-transform;
+  font-size: 0;
+  white-space: nowrap;
+  margin: 70px 0px;
+  padding-bottom: 10px;
+}
+
+.carousel__container1:hover .carousel-item1 {
+  opacity: 0.9;
+}
+
+.carousel__container1:hover .carousel-item1:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity: 1;
+}
